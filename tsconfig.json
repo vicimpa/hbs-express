@@ -6,9 +6,10 @@
     "checkJs": true,
     "lib": [
       "ESNext"
-    ]
+    ],
+    "outDir": "dist"
   },
   "include": [
-    "./src"
+    "./src/*.js"
   ]
 }
